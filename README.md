@@ -27,6 +27,7 @@ https://youtu.be/ns02rddZRCw ( unlisted :Person with link can view )
 ## Setup
 
 * Must have NodeJS and NPM installed (https://nodejs.org/en/)
+* Clone the project using git clone  https://github.com/saur-bh/Matterway.git
 * Install dependencies by running `npm install`
 
 ## Running Tests
