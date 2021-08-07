@@ -127,77 +127,89 @@
         "writeReportEachSpec": true,
         "showSuspectLine": true,
         "highlightSuspectLine": true,
-        "path": "/Users/saurabh/Documents/Matterway-Challenge/results"
+        "path": "/Users/saurabh/Documents/Test/Matterway/results"
     },
     "timer": {
-        "jasmineStart": "2021-08-07T11:56:32.358Z",
-        "jasmineDone": "2021-08-07T11:57:16.545Z"
+        "jasmineStart": "2021-08-07T14:44:26.006Z",
+        "jasmineDone": "2021-08-07T14:45:58.355Z"
     },
     "counts": {
-        "passed": 3
+        "failed": 3
     },
     "sequence": [
         {
-            "id": "spec0",
-            "description": "Should display skill launcher window",
-            "fullName": "Skill Happy Path Testing Should display skill launcher window",
-            "failedExpectations": [],
-            "passedExpectations": [
+            "id": "spec2",
+            "description": "Should goto  https://google.com/ and fills the Google search bar with the following text “Automation did run!”.",
+            "fullName": "Skill Happy Path Testing Should goto  https://google.com/ and fills the Google search bar with the following text “Automation did run!”.",
+            "failedExpectations": [
                 {
-                    "matcherName": "toBeTruthy",
-                    "message": "Passed.",
-                    "stack": "",
-                    "passed": true
+                    "matcherName": "",
+                    "message": "Error: Protocol error (Runtime.callFunctionOn): Target closed.",
+                    "stack": "Error: Protocol error (Runtime.callFunctionOn): Target closed.\n    at /Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:217:63\n    at new Promise (<anonymous>)\n    at CDPSession.send (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:216:16)\n    at ExecutionContext._evaluateInternal (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)\n    at ExecutionContext.evaluateHandle (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:155:21)\n    at WaitTask.rerun (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:532:37)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+                    "passed": false,
+                    "expected": "",
+                    "actual": "",
+                    "suspectLine": "    at new Promise (<anonymous>)",
+                    "hasSuspectLine": true
                 }
             ],
+            "passedExpectations": [],
             "deprecationWarnings": [],
             "pendingReason": "",
             "duration": null,
             "properties": null,
-            "status": "passed",
-            "stoped": "2021-08-07T11:56:42.625Z",
+            "status": "failed",
+            "stoped": "2021-08-07T14:45:05.381Z",
             "prefix": "Skill Happy Path Testing "
         },
         {
             "id": "spec1",
             "description": "Should displays a sidebar with a “Run Automation” button.",
             "fullName": "Skill Happy Path Testing Should displays a sidebar with a “Run Automation” button.",
-            "failedExpectations": [],
-            "passedExpectations": [
+            "failedExpectations": [
                 {
-                    "matcherName": "toBeTruthy",
-                    "message": "Passed.",
-                    "stack": "",
-                    "passed": true
+                    "matcherName": "",
+                    "message": "TimeoutError: waiting for selector `mw-assistant-launcher` failed: timeout 30000ms exceeded",
+                    "stack": "TimeoutError: waiting for selector `mw-assistant-launcher` failed: timeout 30000ms exceeded\n    at new WaitTask (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:509:34)\n    at DOMWorld.waitForSelectorInPage (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:420:26)\n    at Object.internalHandler.waitFor (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/QueryHandler.js:31:77)\n    at DOMWorld.waitForSelector (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:313:29)\n    at Frame.waitForSelector (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:841:51)\n    at Page.waitForSelector (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:2252:33)\n    at $ (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer-shadow-selector/lib/index.js:10:17)\n    at UserContext.<anonymous> (/Users/saurabh/Documents/Test/Matterway/spec/skillFeature/skillSpec.js:55:34)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+                    "passed": false,
+                    "expected": "",
+                    "actual": "",
+                    "suspectLine": "    at UserContext.<anonymous> (/Users/saurabh/Documents/Test/Matterway/spec/skillFeature/skillSpec.js:55:34)",
+                    "hasSuspectLine": true
                 }
             ],
+            "passedExpectations": [],
             "deprecationWarnings": [],
             "pendingReason": "",
             "duration": null,
             "properties": null,
-            "status": "passed",
-            "stoped": "2021-08-07T11:56:53.880Z",
+            "status": "failed",
+            "stoped": "2021-08-07T14:45:44.180Z",
             "prefix": "Skill Happy Path Testing "
         },
         {
-            "id": "spec2",
-            "description": "Should goto  https://google.com/ and fills the Google search bar with the following text “Automation did run!”.",
-            "fullName": "Skill Happy Path Testing Should goto  https://google.com/ and fills the Google search bar with the following text “Automation did run!”.",
-            "failedExpectations": [],
-            "passedExpectations": [
+            "id": "spec0",
+            "description": "Should display skill launcher window",
+            "fullName": "Skill Happy Path Testing Should display skill launcher window",
+            "failedExpectations": [
                 {
-                    "matcherName": "toContain",
-                    "message": "Passed.",
-                    "stack": "",
-                    "passed": true
+                    "matcherName": "",
+                    "message": "Error: Protocol error (Runtime.callFunctionOn): Target closed.",
+                    "stack": "Error: Protocol error (Runtime.callFunctionOn): Target closed.\n    at /Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:217:63\n    at new Promise (<anonymous>)\n    at CDPSession.send (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:216:16)\n    at ExecutionContext._evaluateInternal (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)\n    at ExecutionContext.evaluateHandle (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:155:21)\n    at WaitTask.rerun (/Users/saurabh/Documents/Test/Matterway/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:532:37)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+                    "passed": false,
+                    "expected": "",
+                    "actual": "",
+                    "suspectLine": "    at new Promise (<anonymous>)",
+                    "hasSuspectLine": true
                 }
             ],
+            "passedExpectations": [],
             "deprecationWarnings": [],
             "pendingReason": "",
             "duration": null,
             "properties": null,
-            "status": "passed",
-            "stoped": "2021-08-07T11:57:16.526Z",
+            "status": "failed",
+            "stoped": "2021-08-07T14:45:58.253Z",
             "prefix": "Skill Happy Path Testing "
         }
     ]
