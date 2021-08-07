@@ -1,4 +1,4 @@
-# Matterway application testing using cypress and cucumber (Gherkin syntax) -RunBook
+# Matterway application testing using pupeteer and jasmine framework -RunBook
 
 The test was conducted on web browser ( Chrome v91  and Electron v89)
 
