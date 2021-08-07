@@ -1,0 +1,48 @@
+{
+  "manifest_version": 2,
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoPacw4kvdvmZbHQmC5JV4sJVuyCWiRZDDmG87MdHmSZsXBO5mEOTVYINzu+qtgW8ocpiPnmnA76qDUUsZIn7U0EaPoXpBcZCrMFEntsyjSHY/3ufQFe7neJnMjmbAG/FDbVWmRy3wBU6mV0Xu4UDOhaR517VHFCnfq+iXn7Y5VH4DSj4f+waEeUkJGeqNtslq9lGgt6xYrrNZDlyiS9AYSuYnzZYT/Tc1sygIldD3s/NfeE9mqVTq9yadKOJsZjb/zRkB2HtaBlCi87y79rk8K++PzRnLXO5wZDs2sFmyriRMTdYwCUVObAJHxYFzIEnViVJdJ1w5t+Rn7Es7Cc2YQIDAQAB",
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
+  "version": "8.35.1",
+  "default_locale": "en",
+  "web_accessible_resources": [
+    "assets/*"
+  ],
+  "browser_action": {
+    "default_icon": "assets/icon16.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [],
+  "options_ui": {
+    "page": "assets/options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "webNavigation",
+    "nativeMessaging",
+    "debugger"
+  ],
+  "commands": {
+    "toggle-assistant": {
+      "suggested_key": {
+        "default": "Alt+A"
+      },
+      "description": "__MSG_launcher_taskManager_toggleSidebar__"
+    }
+  },
+  "content_security_policy": "script-src-elem http://localhost:9017 https://localhost:9017 http://localhost:9027 https://localhost:9027 chrome-extension: 'unsafe-inline'; connect-src http: https: ws:; script-src 'self' 'unsafe-eval' 'unsafe-inline'; frame-src 'self' http: https: chrome-extension:; object-src 'self' http: https: chrome-extension:; worker-src 'self' http: https: chrome-extension:;"
+}

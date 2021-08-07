@@ -1,0 +1,244 @@
+{
+  "extension_name": {
+    "message": "Matterway Assistant"
+  },
+  "extension_name_testing": {
+    "message": "Matterway Assistant Testing"
+  },
+  "extension_description": {
+    "message": "Focus on what matters, and leave the tedious and repetitive work to Matterway's Digital Assistant."
+  },
+  "extension_dev_edition_name": {
+    "message": "Matterway Assistant Developer Edition"
+  },
+  "extension_dev_edition_name_testing": {
+    "message": "Matterway Assistant Dev Edition Testing"
+  },
+  "extension_dev_edition_description": {
+    "message": "Matterway Assistant with HTTP proxy support."
+  },
+  "popup_message": {
+    "message": "None of Assistant’s installed Skills can help with this page."
+  },
+  "popup_linkText": {
+    "message": "See which Skills are available"
+  },
+  "browserAction_enabled_tooltip_0": {
+    "message": "Matterway Assistant did not find any skills which can be activated on this page."
+  },
+  "browserAction_enabled_tooltip_1": {
+    "message": "Matterway Assistant found 1 skill for this page."
+  },
+  "browserAction_enabled_tooltip_N": {
+    "message": "Matterway Assistant found $1 skills for this page."
+  },
+  "launcher_hide": {
+    "message": "Hide",
+    "description": "Tooltip shown on the 'x' button on Skill Selector and Task Manager."
+  },
+  "launcher_skillSelector_title": {
+    "message": "Which task do you want to start?"
+  },
+  "launcher_skillSelector_notificationSetting_notifyAndKeep": {
+    "message": "Notify me when assistance is available"
+  },
+  "launcher_skillSelector_notificationSetting_notifyAndHide": {
+    "message": "Notify me for five seconds, then hide"
+  },
+  "launcher_skillSelector_notificationSetting_doNotNotify": {
+    "message": "Don't notify me, I will click the button myself"
+  },
+  "launcher_taskManager_title": {
+    "message": "Task Manager"
+  },
+  "launcher_taskManager_abortTask": {
+    "message": "Abort Task"
+  },
+  "launcher_taskManager_confirmAbort": {
+    "message": "Abort"
+  },
+  "launcher_taskManager_cancelAbort": {
+    "message": "Cancel"
+  },
+  "launcher_taskManager_toggleSidebar": {
+    "message": "Toggle Sidebar"
+  },
+  "sidebar_app_extensionIconTitle": {
+    "message": "Matterway Agent is activated"
+  },
+  "sidebar_noAgentNotification_connectionError_title": {
+    "message": "Cannot connect to Agent"
+  },
+  "sidebar_noAgentNotification_connectionError_detail": {
+    "message": "Assistant could not connect to Matterway Agent."
+  },
+  "sidebar_noAgentNotification_connectionError_body": {
+    "message": "Matterway Agent is the engine that allows Assistant to interact with your applications. Download it and run it from"
+  },
+  "sidebar_noAgentNotification_connection_startingAgent": {
+    "message": "Starting Matterway Agent..."
+  },
+  "sidebar_noAgentNotification_connection_couldNotStartAgent": {
+    "message": "Could not start Matterway Agent."
+  },
+  "sidebar_skillErrorBoundary_title": {
+    "message": "Skill Error"
+  },
+  "sidebar_skillErrorBoundary_body": {
+    "message": "Skill stopped working. That is an internal problem of this skill. You can reload the skill, update it or report this problem to the skill developer."
+  },
+  "sidebar_skillErrorBoundary_reload": {
+    "message": "Reload Skill"
+  },
+  "sidebar_skillErrorBoundary_technicalInfo": {
+    "message": "Technical information about this error:"
+  },
+  "options_page_title": {
+    "message": "Matterway Assistant Options"
+  },
+  "marketplace_title": {
+    "message": "Assistant"
+  },
+  "marketplace_dashboard_installedSkillsTitle": {
+    "message": "Installed Skills"
+  },
+  "marketplace_dashboard_marketplaceTitle": {
+    "message": "Marketplace"
+  },
+  "marketplace_dashboard_skillFetchError": {
+    "message": "Could not fetch Marketplace Skills"
+  },
+  "marketplace_dashboard_installedSkillsFetchError": {
+    "message": "Could not fetch Marketplace Skills"
+  },
+  "marketplace_dashboard_retry": {
+    "message": "Retry"
+  },
+  "marketplace_dashboard_noSkillsAvailable": {
+    "message": "No Skills available"
+  },
+  "marketplace_dashboard_noSkillsInstalled": {
+    "message": "No Skills installed"
+  },
+  "marketplace_dashboard_noSkillsOnPage": {
+    "message": "No Skills on this page"
+  },
+  "marketplace_dashboard_browse": {
+    "message": "No Skills on this page"
+  },
+  "marketplace_dashboard_signInToAccess": {
+    "message": "Sign in to access the Marketplace"
+  },
+  "marketplace_dashboard_signIn": {
+    "message": "Sign in"
+  },
+  "marketplace_dashboard_signOut": {
+    "message": "Sign out"
+  },
+  "marketplace_dashboard_authenticating": {
+    "message": "Authenticating...",
+    "description": "Shown when user is signing in."
+  },
+  "marketplace_dashboard_advanced": {
+    "message": "Advanced"
+  },
+  "marketplace_dashboard_advanced_title": {
+    "message": "Install manually from URL"
+  },
+  "marketplace_dashboard_advanced_install": {
+    "message": "Install"
+  },
+  "marketplace_skillInstallation_error_readingArchive": {
+    "message": "Could not install the skill: Error reading skill archive."
+  },
+  "marketplace_skillInstallation_error_startBackgroundScript": {
+    "message": "Could not install the skill: Failed to start background script."
+  },
+  "marketplace_skillInstallation_error_noURL": {
+    "message": "Could not install the skill: There is no installation URL."
+  },
+  "marketplace_skillInstallation_error_downloadError": {
+    "message": "Could not download the skill: $1"
+  },
+  "marketplace_installedSkills_skillCard_statusBundled": {
+    "message": "Bundled in Assistant"
+  },
+  "marketplace_installedSkills_skillCard_statusPreparingToInstall": {
+    "message": "Preparing to install..."
+  },
+  "marketplace_installedSkills_skillCard_statusInstallationAborted": {
+    "message": "Installation aborted"
+  },
+  "marketplace_installedSkills_skillCard_statusInstalling": {
+    "message": "Installing..."
+  },
+  "marketplace_installedSkills_skillCard_statusNotInstalled": {
+    "message": "Not installed"
+  },
+  "marketplace_installedSkills_skillCard_statusErrorInstalling": {
+    "message": "Error installing skill"
+  },
+  "marketplace_installedSkills_skillCard_statusInstalledAt": {
+    "message": "Installed $1"
+  },
+  "marketplace_installedSkills_skillCard_statusInstalled": {
+    "message": "Installed"
+  },
+  "marketplace_installedSkills_skillCard_install": {
+    "message": "Install"
+  },
+  "marketplace_installedSkills_skillCard_update": {
+    "message": "Update"
+  },
+  "marketplace_installedSkills_skillCard_uninstall": {
+    "message": "Uninstall"
+  },
+  "marketplace_installedSkills_skillCard_uninstallConfirmation": {
+    "message": "Uninstall $skillName$?",
+    "placeholders": {
+      "skillName": {
+        "content": "$1",
+        "example": "The name of the skill being uninstalled."
+      }
+    }
+  },
+  "marketplace_installedSkills_skillCard_uninstallCancel": {
+    "message": "Cancel"
+  },
+  "marketplace_installedSkills_skillCard_abort": {
+    "message": "Abort"
+  },
+  "marketplace_installedSkills_skillCard_reinstall": {
+    "message": "Reinstall"
+  },
+  "marketplace_installedSkills_skillCard_remove": {
+    "message": "Remove"
+  },
+  "marketplace_installedSkills_skillCard_version": {
+    "message": "It is $1 version of the Skill."
+  },
+  "marketplace_installedSkills_skillCard_latestVersion": {
+    "message": "Latest version"
+  },
+  "marketplace_installedSkills_skillCard_alphaVersion": {
+    "message": "Alpha version"
+  },
+  "marketplace_installedSkills_skillCard_betaVersion": {
+    "message": "Beta version"
+  },
+  "marketplace_installedSkills_skillCard_toLatestVersion": {
+    "message": "To Latest version"
+  },
+  "marketplace_installedSkills_skillCard_toAlphaVersion": {
+    "message": "To Alpha version"
+  },
+  "marketplace_installedSkills_skillCard_toBetaVersion": {
+    "message": "To Beta version"
+  },
+  "marketplace_installedSkills_skillCard_extraneousSkill": {
+    "message": "This Skill has been installed outside of the Skill Marketplace."
+  },
+  "marketplace_installedSkills_skillCardError_errorDetails": {
+    "message": "Error details"
+  }
+}
